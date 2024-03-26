@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="/home" class="navlink">Home</a>
+        <a href="/student" class="navlink">Student</a>
+        <a href="/users" class="navlink">Users</a>
+    </div>
+    <form action="/student" method="post">
+        <label for="firstName">Imię:</label>
+        <input type="text" id="firstName" name="firstName"><br>
+        <label for="lastName">Nazwisko:</label>
+        <input type="text" id="lastName" name="lastName"><br>
+        <label for="major">Kierunek:</label>
+        <input type="text" id="major" name="major"><br>
+        <input type="submit" value="Dodaj studenta">
+    </form>
+</body>
+</html>
